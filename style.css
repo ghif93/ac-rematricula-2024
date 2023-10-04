@@ -140,8 +140,8 @@ figcaption{
     float: right;
     max-width: 100px;
     max-height: 100px;
-    padding-top: 10px;
-    padding-left: 10px;
+    position: relative;
+    top: -18px;
 }
 
 
@@ -226,11 +226,14 @@ figcaption{
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 
     .wrap{
         width: auto;
         padding: 15px;
+    }
+    #banner-principal,#banner-2,#banner-3{
+        height: 150px;
     }
     .multi_columns {
         flex-direction: column;
@@ -252,10 +255,14 @@ figcaption{
         flex-direction: column;
         padding: 0;
     }
+    #l7{
+        top: 13px;
+    }
     #balao {
         display: none;
     }
     .titulo-informacoes-importantes{
+        line-height: normal;
         margin-bottom: 30px;
     }
     .titulo-iniciar {
