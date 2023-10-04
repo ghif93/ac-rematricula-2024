@@ -253,9 +253,10 @@ figcaption{
         padding: 0;
     }
     #balao {
-        max-width: 90px;
-        position: absolute;
-        top: 0;
+        display: none;
+    }
+    .titulo-informacoes-importantes{
+        margin-bottom: 30px;
     }
     .titulo-iniciar {
         flex-direction: column;
