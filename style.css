@@ -224,3 +224,44 @@ figcaption{
     align-items: center;
     justify-content: space-between;
 }
+
+
+@media screen and (max-width: 600px) {
+
+    .wrap{
+        width: auto;
+        padding: 15px;
+    }
+    .multi_columns {
+        flex-direction: column;
+    }
+    .multi_columns p{
+        width: auto;
+    }
+    .titulo-vagas{
+        max-width: none;
+        flex-direction: column;
+    }
+    .titulo-vagas h2{
+        max-width: none;
+    }
+    .vagas p {
+        padding: 0
+    }
+    .titulo-novidades{
+        flex-direction: column;
+        padding: 0;
+    }
+    #balao {
+        max-width: 90px;
+        position: absolute;
+        top: 0;
+    }
+    .titulo-iniciar {
+        flex-direction: column;
+    }
+    .titulo-iniciar h2 {
+        width: 100%;
+        text-align: center;
+    }
+  }
