@@ -241,19 +241,18 @@ figcaption{
     .multi_columns p{
         width: auto;
     }
-    .titulo-vagas{
-        max-width: none;
-        flex-direction: column;
-    }
     .titulo-vagas h2{
         max-width: none;
+        margin-left: 20px;
     }
     .vagas p {
         padding: 0
     }
     .titulo-novidades{
-        flex-direction: column;
         padding: 0;
+    }
+    .titulo-novidades img {
+        max-width: 125px;
     }
     #l7{
         top: 13px;
